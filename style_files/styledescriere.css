@@ -1,0 +1,167 @@
+.bara{
+    width:1600px;
+    height:60px;
+    background-color: rgb(58, 62, 59);
+    filter:brightness(55%); 
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+
+
+#vulpe_main{
+    animation: vulpe_rotatie 2s linear infinite;
+    filter:brightness(150%);
+    width:450px;
+    height:400px;
+    position:fixed;
+    top:20px;
+    left:35%;
+    }
+   
+    #vulpe_main:hover{
+        cursor: pointer;
+        filter: brightness(180%);
+    }
+
+   
+    @keyframes vulpe_rotatie{
+        0% {
+            transform:rotate(-15deg);
+        }
+        50%{
+            transform:rotate(15deg);
+        }
+        
+        100%{
+            
+            transform:rotate(-15deg);
+        }
+    }
+
+    #titlumare{
+        position:fixed;
+        left:100px;
+    }
+
+   
+    .titluri{
+        font-family:Poppins;
+        filter:brightness(95%);
+        opacity: 0.8;
+        background-attachment: fixed;
+    height: 40px;
+    color: white;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+    
+    
+    height: 60px;
+    }
+
+   
+   .fundaltext{
+    border-radius:40%;
+    position:fixed;
+    
+   }
+
+   #fundaltextbasic{
+    width:400px;
+    height:200px;
+    top:80px;
+    left:3%;
+    background-color:rgb(24, 174, 159);
+   
+   }
+   #fundal_caracteristici{
+    width:440px;
+    height:201px;
+    position:fixed;
+    top:70%;
+    left:67%;
+    background-color:rgb(190, 33, 229);
+   }
+
+   #textbasic{
+    position: fixed;
+    top:15%;
+    padding:10px;
+     font-family:Poppins;
+  filter:brightness(95%);
+  opacity: 0.8;
+  background-attachment: fixed;
+height: 40px;
+color: white;
+
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+
+   }
+
+
+   #textbasic:hover{
+    color:rgb(240, 231, 51)
+   }
+
+   #img_corp_vulpe{
+    filter:brightness(85%);
+    width:400px;
+    height:300px;
+    position:fixed;
+    top:380px;
+    left:4%;
+   }
+
+   #img_corp_vulpe:hover{
+    width:410px;
+    height:310px;
+   
+   }
+
+   #text_corp{
+    position: fixed;
+    top:75%;
+     font-family:Poppins;
+  filter:brightness(95%);
+  opacity: 0.8;
+height: 40px;
+color: white;
+
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+
+   }
+    #text_corp:hover{
+        cursor:pointer;
+    }
+    #text_corp:active{
+color:rgb(59, 241, 3)
+    }
+   #vulpe_creepy{
+    position:fixed;
+    top:10%;
+    left:73%;
+    width:280px;
+    height:400px;
+   }
+
+   #vulpe_creepy:hover{
+   animation: stanga_dreapta_vulpe_creepy 1s linear infinite;
+   }
+
+   @keyframes stanga_dreapta_vulpe_creepy{
+    0% {
+       left:73%;
+    }
+   
+    50%{
+        left:76%;
+    }
+    
+    100%{
+        
+        left:73%;
+    }
+}
+
+
+  

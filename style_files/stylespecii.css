@@ -1,0 +1,144 @@
+.bara{
+    width:1600px;
+    height:60px;
+    background-color: rgb(58, 62, 59);
+    filter:brightness(55%); 
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+
+
+#vulpe_main{
+    filter:brightness(150%);
+    width:450px;
+    height:400px;
+    position:fixed;
+    top:20px;
+    left:35%;
+    }
+   
+    #vulpe_main:hover{
+        filter:brightness(180%);
+    }
+
+    #titlumare{
+        position:fixed;
+        left:100px;
+    }
+
+   
+    .titluri{
+        font-family:Poppins;
+        filter:brightness(95%);
+        opacity: 0.8;
+        background-attachment: fixed;
+    height: 40px;
+    color: white;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+    
+    
+    height: 60px;
+    }
+
+    .specii{
+        width:370px;
+        height:320px;
+        border-radius: 30%;
+        position:fixed;
+    }
+
+    .specii:hover{
+        filter:opacity(70%);
+    }
+    #fenec{
+
+        top:70px;
+        left:5%;
+    }
+
+    #simien{
+        top:410px;
+        left:5%;
+    }
+
+    #gri{
+        top:70px;
+        left:70%;
+    }
+
+    #darwin{
+        top:410px;
+        left:70%;
+    }
+
+.numere{
+    background-color: rgb(52, 137, 13);
+    border-radius: 70%;
+    width:30px;
+    height:30px;
+    position:fixed;
+ 
+}
+
+#div1{
+    top:90px;
+    left:3%;
+}
+
+#div2{
+    top:450px;
+    left:3%;
+}
+
+#div3{
+    top:90px;
+    left:68%;
+}
+
+#div4{
+    top:450px;
+    left:68%;
+}
+    .text_in_div{
+        position: relative;
+      margin:auto;
+      width:50%;
+      top:-20%;
+      padding:10px;
+       font-family:Poppins;
+    filter:brightness(95%);
+    opacity: 0.8;
+    background-attachment: fixed;
+height: 40px;
+color: white;
+
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+
+
+height: 60px;
+    }
+
+
+ #divinfospecii{
+    background-color:rgb(31, 93, 13);
+    position:fixed;
+    width:500px;
+    height:235px;
+    top:470px;
+    left:33%;
+    
+ }
+ #divinfospecii:hover{
+    background-color: aqua;
+    filter:brightness(120%);
+ }
+
+ #textinfospecii{
+font-family:Poppins;
+position:relative;
+width:50%;
+top:0%;
+font-size:25px;
+ }

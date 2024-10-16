@@ -1,0 +1,240 @@
+.bara{
+    width:1600px;
+    height:60px;
+    background-color: rgb(58, 62, 59);
+    filter:brightness(55%); 
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+.textmain{
+    font-size:23px;
+    font-family:Poppins;
+     color:black;
+     position:fixed;
+}
+#descriere{
+    
+    top:570px;
+    left:36.5%;
+}
+#specii{
+top:346px;
+left:15%;
+} 
+
+#viata{
+    
+top:540px;
+left:63%;
+}
+
+#istorie{
+    
+top:315px;
+left:83%;
+}
+
+.orb{
+margin:auto;
+border-radius:50%;
+position:fixed;
+}
+.orb:hover{
+    cursor: pointer;
+}
+@keyframes spin_red_blue{
+    0% {
+        top:350px;
+    }
+    25%{
+        top:352px;
+    }
+    50%{
+        top:360px;
+    }
+    75%{
+        top:357px;
+    }
+    100%{
+        transform:rotate(360deg);
+        top:350px;
+    }
+}
+
+@keyframes spin_green_blue{
+    0% {
+        top:52px;
+    }
+    25%{
+        top:50px;
+    }
+    50%{
+        top:56px;
+    }
+    75%{
+        top:53px;
+    }
+    100%{
+        transform:rotate(-360deg);
+        top:50px;
+    }
+}
+
+@keyframes spin_black_white{
+    0% {
+        top:280px;
+    }
+    25%{
+        top:282px;
+    }
+    50%{
+        top:290px;
+    }
+    75%{
+        top:287px;
+    }
+    100%{
+        transform:rotate(360deg);
+        top:280px;
+    }
+}
+
+@keyframes spin_orange_green{
+    0% {
+        top:80px;
+    }
+    25%{
+        top:82px;
+    }
+    50%{
+        top:90px;
+    }
+    75%{
+        top:87px;
+    }
+    100%{
+        transform:rotate(360deg);
+        top:80px;
+    }
+}
+#black_white_orb{
+    animation: spin_black_white 2s linear infinite;
+    left:55%;
+    margin-top:140px;
+    width:300px;
+    height:300px;
+
+    box-shadow:inset 0 0 50px #fff,
+    inset 20px 0 60px #fff,
+    inset -20px 0 60px rgb(0, 0, 0),
+    inset 20px 0 300px #fff,
+    inset -20px 0 300px rgb(0, 0, 0),
+    0 0 50px #fff,
+    -10px 0 60px #fff,
+    10px 0 60px rgb(0, 0, 0);
+}
+
+#black_white_orb:hover{
+    filter:brightness(120%);
+    width:310px;
+    height:310px;
+}
+#orange_green_orb{
+    animation: spin_orange_green 2s linear infinite;
+    left:77%;
+    margin-top:140px;
+    width:250px;
+    height:250px;
+
+    box-shadow:inset 0 0 50px #fff,
+    inset 20px 0 60px rgb(255, 123, 0),
+    inset -20px 0 60px rgb(26, 107, 1),
+    inset 20px 0 300px rgb(255, 123, 0),
+    inset -20px 0 300px rgb(26, 107, 1),
+    0 0 50px #fff,
+    -10px 0 60px rgb(255, 123, 0),
+    10px 0 60px rgb(26, 107, 1);
+}
+
+#orange_green_orb:hover{
+    filter:brightness(120%);
+    width:260px;
+    height:260px;
+}
+.centered{
+    margin:auto;
+    width:50%;
+}
+#red_blue_orb{
+    animation: spin_red_blue 2s linear infinite; 
+    left:33%;
+margin-top:140px;
+width:220px;
+height:220px;    
+   border-radius:50%;
+   position:fixed;
+   box-shadow:inset 0 0 50px #fff,
+inset 20px 0 60px rgb(252, 23, 23),
+inset -20px 0 60px blue,
+inset 20px 0 300px rgb(252, 23, 23),
+inset -20px 0 300px blue,
+0 0 50px #fff,
+-10px 0 60px rgb(252, 23, 23),
+10px 0 60px blue;
+}
+
+#red_blue_orb:hover{
+        filter:brightness(120%);
+        width:230px;
+        height:230px;   
+}
+
+#green_blue_orb{
+       animation: spin_green_blue 2s linear infinite;
+       left:5%;
+margin-top:140px;
+width:370px;
+height:370px;
+    box-shadow:inset 0 0 50px #fff,
+inset 20px 0 60px rgb(47, 255, 71),
+inset -20px 0 60px rgb(71, 61, 255),
+inset 20px 0 300px rgb(47, 255, 71),
+inset -20px 0 300px rgb(71, 61, 255),
+0 0 50px #fff,
+-10px 0 60px rgb(47, 255, 71),
+10px 0 60px rgb(71, 61, 255);
+}
+
+#green_blue_orb:hover{
+    filter:brightness(120%);
+        width:380px;
+        height:380px;  
+}
+
+
+.titluri{
+    font-family:Poppins;
+    filter:brightness(95%);
+    opacity: 0.8;
+    background-attachment: fixed;
+height: 40px;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+height: 60px;
+}
+
+#titlumare{
+    position:fixed;
+    left:100px;
+}
+   
+#vulpe_main{
+filter:brightness(150%);
+width:450px;
+height:400px;
+position:fixed;
+top:30px;
+left:35%;
+}
+
